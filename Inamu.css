@@ -1,7 +1,6 @@
 body {
     width: 99%;
-    height: 1000px;
-    border: 2px solid rgb(255, 0, 0);
+    height: 2500px;
     background-color: white;
 }
 
@@ -12,7 +11,6 @@ header{
     padding-top: 20px;
     width: 99wh;
     height: 220px;
-    border: 1px solid rgb(167, 255, 4);
 }
 
 .logoImgCont {
@@ -28,9 +26,9 @@ header{
     display: flex;
     grid-column: 2;
     grid-row: 1;
-    width: 80%;
+    width: 75%;
     height: 60%;
-    padding-left: 20%;
+    padding-left: 24%;
     align-self: center;
     flex-direction: row;
 }
@@ -49,7 +47,7 @@ header{
 }
 
 .mediaIcons {
-    margin-left: 11%;
+    margin-left: 14%;
     display: flex;
     grid-column: 2;
     grid-row: 2;
@@ -106,11 +104,14 @@ header{
     display: flex;
     flex-direction: row;
     list-style: none;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: 14px;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     letter-spacing: -0.25px;
+    color: rgb(95, 95, 95);
+    margin-right: 3%;
+    font-weight: bold;
 }
 
 nav {
@@ -127,6 +128,240 @@ nav {
     width: 99%;
     list-style: none;
     color: white;
-    border: 1px dashed green;
     align-items: center;
+    font-family:  Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    margin-right: 3%;
+    font-weight: bold;
+}
+#titleInamuCont {
+   display: grid;
+   grid-template-columns: 1fr 50% 1fr;
+   width: 100%;
+   border: 1px dashed green;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100px;
+}
+#titleInamu {
+    font-family: 'Inter', sans-serif;
+    color: #007ea8;
+    grid-column: 2;
+    margin-top: 75px;
+    font-size: 42px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    color: #007ea8;
+}
+
+.imgSliderCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    border: 1px dashed rebeccapurple;
+}
+.imgSlider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+    height: 100%;
+    border: 1px dashed yellow;
+}
+.slides {display:none}
+.leftArrow, .rightArrow, .demo{cursor:pointer}
+.demo{
+    height:13px;
+    width:13px;
+    padding:0;
+    color: #ccc;
+}
+
+.cont1 {
+    border: 1px dashed red;
+    height: 600px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.subCont1 {
+    justify-content: right;
+    border: 1px dashed blue;
+    display: flex;
+    grid-column: 1;
+}
+
+.subCont2 {
+    display: flex;
+    border: 1px dashed green;
+    grid-column: 2;
+}
+
+#blueBox {
+    display: flex;
+    width: 450px;
+    height: 600px;
+    border-radius: 20px;
+    background-color: #007ea8;
+    margin-right: 5%;
+}
+
+#grayBox {
+    display: flex;
+    width: 450px;
+    height: 600px;
+    border-radius: 20px;
+    background-color: #ebeef1;;
+    margin-left: 5%;
+}
+
+.cont2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 550px;
+    border: 1px solid salmon;
+}
+
+#casaDeLasM {
+    position: relative;
+    width: 65%;
+    height: 410px;
+    border-radius: 20px;
+    background-image: url(Img/blueBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px 0 50px
+}
+
+.cardsCont{
+    width: 100%;
+    height: 415px;
+    border: 1px solid aqua;
+}
+
+.politicasNacCont {
+    display: grid;
+    grid-template:15% 40% 40% / 100% ;
+    width: 100%;
+    min-height: 930px;
+    background-image: url(Img/blueBackgroundv.2.png);
+    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    justify-content: center;
+}
+
+.titleCont {
+    grid-row: 1;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    border: 1px dashed red;
+    height: 90px;
+}
+
+
+
+#politicasNacTitle {
+    display: flex;
+    color: white;
+    font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+    font-size: 42px;
+    line-height: 36px;
+    font-weight: bolder;
+}
+
+#politicasNacSubTitle {
+    display: flex;
+    color: white;
+    font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+    font-size: larger;
+    font-weight: lighter;
+    font-family: 'Inter', sans-serif;
+}
+
+.PIEGcont {
+    grid-row: 2;
+    width: 60%;
+    background-color: white;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 42px 50px;
+    justify-self: center;
+}
+.PlaNoViCont{
+    grid-row: 3;
+    width: 60%;
+    background-color: white;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 42px 50px;
+    justify-self: center;
+}
+
+.newsCont {
+    display: grid;
+    grid-template: 20% 80%/ 40% 20% 40%;
+    height: 1349px;
+    width: 100%;
+}
+
+.bruncaCont {
+    grid-row: 2;
+    grid-column: 1;
+    width: 40%;
+    height: 733.953px;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    justify-self: right;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 20px 40px -5px rgba(80, 92, 103, 0.24);
+}
+
+.OCDEcont {
+    grid-row: 2;
+    grid-column: 2;
+    width: 80%;
+    height: 733.953px;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 20px 40px -5px rgba(80, 92, 103, 0.24);
+}
+.updateCont {
+    grid-row: 2;
+    grid-column: 3;
+    width: 40%;
+    height: 733.953px;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    justify-self: left;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 20px 40px -5px rgba(80, 92, 103, 0.24);
 }
