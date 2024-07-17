@@ -55,44 +55,100 @@
     </div>
 
     <div class="imgSliderCont">
-        <div class="imgSlider">
-            <div class="leftArrow" onclick="plusDivs(-1)">&#10094;</div>
-            <img class="slides" src="Img/1stSlider.jpeg" style="width:80%">
-            <img class="slides" src="Img/2ndSlider.jpeg" style="width:80%">
-            <img class="slides" src="Img/3rdSlider.png" style="width:80%">
-            <img class="slides" src="Img/4thSlider.png" style="width:80%">
-            <img class="slides" src="Img/5th Slider.png" style="width:80%">
-            <img class="slides" src="Img/6thSlider.png" style="width:80%">
-            <img class="slides" src="Img/7thSlider.png" style="width:80%">
-            <div class="bottomCont" style="width:100%">
-            <div class="rigtArrow" onclick="plusDivs(1)">&#10095;</div>
-            <input type="radio" name="radio_btn" id="radio1" onclick="currentDiv(1)">
-            <input type="radio" name="radio_btn" id="radio1" onclick="currentDiv(2)">
-            <input type="radio" name="radio_btn" id="radio1" onclick="currentDiv(3)">
-            <input type="radio" name="radio_btn" id="radio1" onclick="currentDiv(4)">
-            <input type="radio" name="radio_btn" id="radio1" onclick="currentDiv(5)">
-            <input type="radio" name="radio_btn" id="radio1" onclick="currentDiv(6)">
-            <input type="radio" name="radio_btn" id="radio1" onclick="currentDiv(7)">
-            </div>
-            </div>
+       <div class="firstSlider">
+            <Div class="slides">
+                <input type="radio" name="radioBtn" id="radio1">
+                <input type="radio" name="radioBtn" id="radio2">
+                <input type="radio" name="radioBtn" id="radio3">
+                <input type="radio" name="radioBtn" id="radio4">
+                <input type="radio" name="radioBtn" id="radio5">
+                <input type="radio" name="radioBtn" id="radio6">
+                <input type="radio" name="radioBtn" id="radio7">
+
+                <div class="slideFirst">
+                    <img src="Img/1stSlider.jpeg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="Img/2ndSlider.jpeg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="Img/3rdSlider.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="Img/4thSlider.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="Img/5th Slider.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="Img/6thSlider.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="Img/7thSlider.png" alt="">
+                </div>
+            </Div>
+            <div class="manualNavigation">
+                <label for="radio1" class="manualBtn"></label>
+                <label for="radio2" class="manualBtn"></label>
+                <label for="radio3" class="manualBtn"></label>
+                <label for="radio4" class="manualBtn"></label>
+                <label for="radio5" class="manualBtn"></label>
+                <label for="radio6" class="manualBtn"></label>
+                <label for="radio7" class="manualBtn"></label>
+           </div>
+       </div>
+       
     </div>
 
     <div class="cont1">
         <div class="subCont1">
             <div id="blueBox">
+                <div id="titleBlue">
+                    Nosotras
+                </div>
+                <div id="blueText">
+                    El INAMU, institución que promueve y tutela los derechos humanos de las mujeres, pone a disposición de la sociedad costarricense y de las mujeres en particular, información acerca de sus áreas de trabajo y los servicios ofrecidos 
+                    <br> <br>Leer más <img src="Img/whiteArrow.png" alt="" id="whiteArrowImg">                   
+                </div>
+                <div id="blueContImage">
+                    <img src="Img/blueContImg.png" alt="">
+                </div>
 
             </div>
         </div>
         <div class="subCont2">
             <div id="grayBox">
-
+                <div id="bigTextGray">
+                    Atención de <br> incidentes de <br> emergencia y <br> consulta sobre <br> violencia 
+                </div>
+                <div id="smallTextGray">
+                    Informe sobre situaciones de violencia al servicio de emergencia
+                </div>
+                <div id="grayImages">
+                    <img src="Img/1stEmergency.png" alt="">
+                    <img src="Img/2ndImage.png" alt="">
+                    <div id="emergencyContact">
+                        9-1-1    <img src="Img/whiteArrow.png" alt="">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
     <div class="cont2">
         <div id="casaDeLasM">
-            
+            <div id="casaMujeresImg">
+                <img src="Img/casaMujeresImg.png" alt="">
+            </div>
+            <div id="casaMujeresLike">
+                <img src="Img/womanLike.png" alt="">
+            </div>
+            <div id="smallTextCasaM">
+                La Casa de las Mujeres, es una iniciativa que nace con el objetivo de visibilizar y difundir los aportes de las mujeres al desarrollo de la sociedad costarricense en el campo político, social, cultural, económico y científico.
+            </div>
+            <div id="bigTextCasaM">
+                A través de la Casa de las Mujeres, el INAMU invita a todas aquellas personas que quieran conocer y reconocer la contribución de las mujeres al quehacer histórico de Costa Rica, consultando los siguientes links de publicaciones y materiales que... <br> <br> Leer más <img src="Img/whiteArrow.png" alt="">
+            </div>
         </div>
     </div>
 
@@ -108,27 +164,104 @@
         </div>
 
         <div class="PIEGcont">
-
+            <div id="izqPIEG">
+                <img src="Img/piegImg.png" alt="">
+            </div>
+            <div id="derPIEG">
+                <img src="Img/PIEG.png" alt="">
+            </div>
         </div>
 
         <div class="PlaNoViCont">
-
+            <div id="planoviImg">
+                <img src="Img/planoviImg.png" alt="">
+            </div>
+            <div id="derPlanovi">
+                <img src="Img/planoviText.png" alt="">
+            </div>
 
         </div>
     </div>
 
     <div class="newsCont">
+        <div id="titleNews">
+            Noticias
+        </div>
         <div class="bruncaCont">
-
+            <div id="policiaPic">
+                <img src="Img/policiaPic.jpeg" alt="">
+            </div>
+            <div id="boldText">
+                REGION BRUNCA SE UNE Y DICE BASTA YA DE VIOLENCIA CONTRA LAS MUJERES
+            </div>
+            <div id="grayText">
+                REGION BRUNCA SE UNE Y DICE BASTA YA DE VIOLENCIA CONTRA LAS MUJERES -- San José, 15 de julio de 2024 . La ministra de la Condición de la Mujer, Cindy Quesada Hernández y la Presidenta...
+            </div>
+            <div id="linkIndicator1">
+                <a href="https://www.inamu.go.cr/web/inamu/-/region-brunca-se-une-y-dice-basta-ya-de-violencia-contra-las-mujeres"><img src="Img/verImg.png" alt="">
+                </a>
+            </div>
         </div>
         <div class="OCDEcont">
+            <div id="OCDEPic"> 
+                <img src="Img/OCDEPic.png" alt="">
+            </div>
+            <div id="OCDEBoldText">
+                NUEVO ESTUDIO DE LA OCDE ANALIZA LAS BRECHAS DE GÉNERO EN EL TRABAJO NO REMUNERADO EN COSTA RICA
+            </div>
+
+            <div id="OCDEGrayText">
+                NUEVO ESTUDIO DE LA OCDE ANALIZA LAS BRECHAS DE GÉNERO EN EL TRABAJO NO REMUNERADO EN COSTA RICA -- San José, 12 de julio de 2024 . El estudio "Igualdad de Género en Costa Rica:... <br> <br> 
+                <a href="https://www.inamu.go.cr/web/inamu/-/nuevo-estudio-de-la-ocde-analiza-las-brechas-de-genero-en-el-trabajo-no-remunerado-en-costa-rica"><img src="Img/verImg.png" alt=""></a>
+            </div>
 
         </div>
         <div class="updateCont">
-
+            <div id="UpdateContPic">
+                <img src="Img/UpdateContPic.png" alt="">
+            </div>
+            <div id="boldTextUpdate">
+                ESTAMOS MODERNIZANDO EL INAMU PARA SER EFICIENTES EN EL COMBATE A LA VIOLENCIA
+            </div>
+            <div id="greyTextUpdate">
+                ESTAMOS MODERNIZANDO EL INAMU PARA SER EFICIENTES EN EL COMBATE A LA VIOLENCIA -- 12 de julio, 2024 - San José – El miércoles 10 de julio, la Ministra de la Condición de la... <br> <br>
+                <a href="https://www.inamu.go.cr/web/inamu/-/estamos-modernizando-el-inamu-para-ser-eficientes-en-el-combate-a-la-violencia"><img src="Img/verImg.png" alt=""></a>
+            
+            </div>
         </div>
 
     </div>
+
+    <footer>
+        <div class="enlacesCont">
+            <div id="enlacesTitle">                
+                Enlaces
+            </div>
+            <div class="rutaDeGenero">  
+                <img src="Img/rutaDeGeneroImg.png" alt="">
+                <p id="rutaDeGeneroText">Ruta de género</p>
+            </div>
+            <div class="soyEmprendedoraCont">
+                <img src="Img/soyEmprendedoraImg.png" alt="">
+                <p id="soyEmprendedoraText">¡Soy Emprendedora!</p>
+            </div>
+            <div class="cajaDeHerramientasCont">
+                <img src="Img/cajaDeHerramientas.png" alt="">
+                <p id="cajaDeHerramientasText">Caja de herramientas</p>
+            </div>
+        </div>
+        <div class="footerLine">
+            <div id="footerLinev2"></div>
+        </div>
+        
+        <div class="bottomFooter">
+            <div class="firstColFooter">
+                <img src="Img/InamuLogoGray.png" alt="">
+                INAMU Costa Rica Copyright-Todos los <br> derechos reservados <br> Fecha de última actualización: <br> 15/Julio/2024
+            </div>
+         </div>
+
+    </footer>
 
 
 
