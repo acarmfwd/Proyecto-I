@@ -1,0 +1,321 @@
+body {
+    width: 99%;
+    height: 1500px;
+    background-color: white; 
+}
+
+header{
+    display: grid;
+    grid-template: 35% 25% 25%/ 30% 1fr;
+    justify-self: center;
+    padding-top: 20px;
+    width: 99wh;
+    height: 220px;
+}
+
+.logoImgCont {
+    display: flex;
+    grid-column: 1;
+    grid-row: 1;
+    height: 100%;
+    width: 99%;
+    margin-left: 10%;
+}
+
+.rutaImg{
+    display: flex;
+    grid-column: 2;
+    grid-row: 1;
+    width: 75%;
+    height: 60%;
+    padding-left: 24%;
+    align-self: center;
+    flex-direction: row;
+}
+#srchBar {
+    display: flex;
+    width: 30%;
+    height: 40%;
+    margin-left: 50%;
+    align-self: center;
+}
+#lupita {
+    display: flex;
+    height: 40%;
+    align-self: center;
+    margin-left: 5px;
+}
+
+.mediaIcons {
+    margin-left: 14%;
+    display: flex;
+    grid-column: 2;
+    grid-row: 2;
+    align-items: center; 
+}
+
+#ubiK {
+    display: flex;
+    height: auto;
+    margin-left: 1%;
+}
+
+#yT {
+    display: flex;
+    height: auto;
+    margin-left: 1%;
+}
+
+#Fb {
+    margin-left: 1%;
+    display: flex;
+    height: auto;
+}
+
+#Insta {
+    display: flex;
+    height: auto;
+    margin-left: 1%;
+}
+
+#Sptf {
+    display: flex;
+    height: auto;
+    margin-left: 1%;
+}
+#tktk {
+    display: flex;
+    height: auto;
+    margin-left: 1%;
+}
+.lowerHdr {
+    display: flex;
+    justify-self: center;
+    width: 99%;
+    grid-column: 1 / 3;
+    grid-row: 3;
+    height: 50%;
+    align-self: flex-end;
+    flex-direction: row;
+}
+#listHdr a{    
+    color: rgb(95, 95, 95);
+    text-decoration: none;
+}
+
+
+#listHdr {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.25px;
+    color: rgb(95, 95, 95);
+    margin-right: 3%;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: #007ea8;
+    width: 100wh;
+    height: 75px;
+}
+
+#navList {
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+    list-style: none;
+    color: white;
+    align-items: center;
+    font-family:  Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    margin-right: 3%;
+    font-weight: bold;
+}
+
+.asiSomosLwrHdr{
+    display: grid;
+    grid-template: 40% 40% 20%/1fr ;
+    width: 100%;
+    height: 250px;
+}
+#smallAsiSomos{
+    display: flex;
+    font-family:  Helvetica, Arial, sans-serif;
+    color: #007ea8;
+    font-size: large;
+    align-self: self-end;
+    margin-left: 150px;
+}
+#bigAsiSomos{
+    display: flex;
+    font-family:  Helvetica, Arial, sans-serif;
+    color: #007ea8;
+    font-size: 40px;
+    margin-left: 150px;
+    font-weight: 800;
+    align-self: center;
+}
+.asiSomosList{
+    display: flex;
+    color: #007ea8;
+    margin-left: 150px;
+}
+
+.asiSomosList ul{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+#elementList{
+    margin-left: 50px;
+}
+#lwrHdrLine{
+    display: flex;
+    width: 100%;
+    height: 4px;
+    justify-content: center;
+}
+#lwrHdrLineV2{
+    width: 70%;
+    height: 1px;
+    background-color: gray;
+    display: flex;
+}
+.nuestraHistoria{
+    display: grid;
+    grid-template: 10% 90% / 1fr;
+    width: 100%;
+    height: 2000px;
+}
+#nuestraHistoriaTitle {
+    grid-row: 1;
+    font-size: x-large;
+    font-family: Helvetica, Arial, sans-serif;
+    color: rgb(63, 63, 63);
+    margin-left: 200px;
+    align-self: center;
+}
+
+#parrafoNuestraHistoria {
+    width: 70%;
+    font-size: 15px;
+    color: #666;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.25px;
+    justify-self: center;
+}
+
+footer {
+    width: 100%;
+    height: 600px;
+    background-color: #f7f7f7;
+}
+
+.bottomFooter {
+    width: 100%;
+    height: 600px;
+    display: grid;
+    grid-template: 80% 30% / 40% 30% 30%;
+}
+
+.firstColFooter {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-self: right;
+    color: #666;
+    font-size: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.25px;
+    text-align: left;
+}
+
+.firstColFooter img{
+    width: 90%;
+    margin-top: 100px;
+}
+
+#firstTextFooter{
+    display: flex;
+    color: #666;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.25px;
+    text-align: left;
+}
+
+.secondColFooter {
+    display: flex;
+    grid-column: 2;
+    grid-row: 1;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.secondColFooter img{
+    width: 90px;
+    height: 30px;
+}
+
+#text2ndCol{
+    font-size: 15px;
+    color: #666;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.25px;
+}
+.thirdColFooter {
+    display: flex;
+    grid-column: 3;
+    grid-row: 1;
+    justify-self: left;
+    align-self: center;
+}
+
+#titleList{
+    font-weight: bolder;
+    color: #000000;
+    font-size: large;
+}
+
+.thirdColFooter ul{
+    list-style: none;
+    font-size: 15px;
+    color: #666;
+    font-family: 'Inter', sans-serif;
+}
+
+.mediaIconsV2 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    grid-column: 1 / 4;
+    grid-row: 2;
+    align-items: center; 
+    justify-content: center;
+}

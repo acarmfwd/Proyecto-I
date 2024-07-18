@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inamu</title>
     <link rel="stylesheet" href="Inamu.css">
-</head>
+    
 <body>
     <header>
         <div class="logoImgCont">
@@ -27,11 +27,11 @@
         
            <div class="lowerHdr">
             <ul id="listHdr">
-                <li>Así Somos</li>
+                <li> <a href="asiSomos.html">Así Somos</a></li>
                 <li>Red de Transpariencia y Datos Abiertos</li>
                 <li>Recursos Humanos</li>
                 <li>Colaboradas/es</li>
-                <li>Contacto</li>
+                <li> <a href="contact.html">Contacto</a></li>
                 <li>Preguntas Frecuentes</li>
             </ul>
            </div> 
@@ -55,51 +55,48 @@
     </div>
 
     <div class="imgSliderCont">
-       <div class="firstSlider">
-            <Div class="slides">
-                <input type="radio" name="radioBtn" id="radio1">
-                <input type="radio" name="radioBtn" id="radio2">
-                <input type="radio" name="radioBtn" id="radio3">
-                <input type="radio" name="radioBtn" id="radio4">
-                <input type="radio" name="radioBtn" id="radio5">
-                <input type="radio" name="radioBtn" id="radio6">
-                <input type="radio" name="radioBtn" id="radio7">
+        <div class="slideshow-container">
+        
+            <div class="mySlides fade">
+              <img src="Img/1stSlider.jpeg" style="width:100%">
+            </div>
+          
+            <div class="mySlides fade">
+              <img src="Img/2ndSlider.jpeg" style="width:100%">
+            </div>
+          
+            <div class="mySlides fade">
+              <img src="Img/3rdSlider.png" style="width:100%">
+            </div>
 
-                <div class="slideFirst">
-                    <img src="Img/1stSlider.jpeg" alt="">
-                </div>
-                <div class="slide">
-                    <img src="Img/2ndSlider.jpeg" alt="">
-                </div>
-                <div class="slide">
-                    <img src="Img/3rdSlider.png" alt="">
-                </div>
-                <div class="slide">
-                    <img src="Img/4thSlider.png" alt="">
-                </div>
-                <div class="slide">
-                    <img src="Img/5th Slider.png" alt="">
-                </div>
-                <div class="slide">
-                    <img src="Img/6thSlider.png" alt="">
-                </div>
-                <div class="slide">
-                    <img src="Img/7thSlider.png" alt="">
-                </div>
-            </Div>
-            <div class="manualNavigation">
-                <label for="radio1" class="manualBtn"></label>
-                <label for="radio2" class="manualBtn"></label>
-                <label for="radio3" class="manualBtn"></label>
-                <label for="radio4" class="manualBtn"></label>
-                <label for="radio5" class="manualBtn"></label>
-                <label for="radio6" class="manualBtn"></label>
-                <label for="radio7" class="manualBtn"></label>
-           </div>
-       </div>
-       
+            <div class="mySlides fade">
+                <img src="Img/4thSlider.png" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="Img/5th Slider.png" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="Img/6thSlider.png" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="Img/7thSlider.png" style="width:100%">
+            </div>
+          
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+        </div>
     </div>
-
     <div class="cont1">
         <div class="subCont1">
             <div id="blueBox">
@@ -153,8 +150,24 @@
     </div>
 
     <div class="cardsCont">
-    
-
+        <div class="firstCard">
+            <img src="Img/MsgImg.png" alt="">
+            <p id="boldText1">Foro de Mujeres</p>
+            <p id="cardGrayText1">Constituido por organizaciones sociales que trabajan por el avance de las mujeres</p>
+        </div>
+        <div class="secondCard">
+            <img src="Img/derechosMImg.png" alt="">
+            <p id="boldText2">Foro de Mujeres</p>
+            <p id="cardGrayText2">Constituido por organizaciones sociales que trabajan por el avance de las mujeres</p>
+        </div>
+        <div class="thirdCard">
+            <img src="Img/questionMarkImg.png" alt="">
+            <p id="boldText3">Consulta sobre violencia contra las Mujeres</p>
+            <p id="cardGrayText3">Se brinda atención especializada a mujeres que enfrentan situaciones de violencia</p>
+        </div>
+        <div class="cardImg">
+            <img src="Img/cardSlider.png" alt="">
+        </div>
     </div>
 
     <div class="politicasNacCont">
@@ -256,8 +269,33 @@
         
         <div class="bottomFooter">
             <div class="firstColFooter">
-                <img src="Img/InamuLogoGray.png" alt="">
-                INAMU Costa Rica Copyright-Todos los <br> derechos reservados <br> Fecha de última actualización: <br> 15/Julio/2024
+                <img src="Img/InamuLogoGray.png" alt=""> <br>   
+                <p1 id="firstTextFooter">
+                    INAMU Costa Rica Copyright-Todos los <br> derechos reservados  <br><br> Fecha de última actualización: <br> 15/Julio/2024
+                </p1>
+            </div>
+            <div class="secondColFooter">
+                <img src="Img/cCImg.png" alt=""> <br> 
+                <p1 id="text2ndCol">
+                    La Información de este sitio está disponible <br> y autorizada bajo la licencia de contenido <br> "Open Database": http://opendatacommons.org/licenses/odbl/1.0/
+                </p1>
+            </div>
+            <div class="thirdColFooter">
+                <ul>
+                    <li id="titleList">Mapa del sitio</li> <br> <br>
+                    <li>Accesibilidad</li> <br> <br>
+                    <li>Políticas de uso</li> <br> <br>
+                    <li>Preguntas Frecuentes</li> <br> <br>
+                </ul>
+            </div>
+
+            <div class="mediaIconsV2">
+                <a id="ubik" href="https://www.inamu.go.cr/web/inamu/oficinas-centrales"><img src="Img/Ubi.png" alt="Ubicacion"></a>
+                <a id="Fb" href="https://www.facebook.com/inamu.costarica"><img src="Img/FaceLogo.png" alt="Facebook"></a>
+                <a id="Insta" href="https://www.instagram.com/inamu_cr/"><img src="Img/InstaLogo.png" alt="Instagram"></a>
+                <a id="yT" href="https://www.youtube.com/channel/UC6P8wu1emvc47uJkmR-AubA"><img src="Img/Youtube.png" alt="Youtube"></a>
+                <a id="Sptf" href="https://open.spotify.com/show/15tjgpQ6Utu0iR59pIRjzg"><img src="Img/Spotify.png" alt="Spotify"></a>
+                <a id="tktk" href="https://www.tiktok.com/@inamu_cr   "><img src="Img/TikTok.png" alt="TikTok"></a>         
             </div>
          </div>
 
